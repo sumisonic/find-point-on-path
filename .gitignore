@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Dotenv environment files
+.env
+
+# macOS folder attribute files
+.DS_Store
+
+# Log files
+*.log
+
+# Coverage directory used by tools like Istanbul
+coverage/
