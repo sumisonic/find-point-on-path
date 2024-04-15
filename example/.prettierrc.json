@@ -1,0 +1,12 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "semi": false,
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": ["*.frag"],
+      "options": { "parser": "glsl-parser" }
+    }
+  ]
+}

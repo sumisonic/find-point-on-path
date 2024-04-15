@@ -19,11 +19,13 @@ module.exports = {
         varsIgnorePattern: '^_',
       },
     ],
-    '@typescript-eslint/no-inferrable-types': [
+    '@typescript-eslint/ban-types': [
       'error',
       {
-        ignoreParameters: true,
-        ignoreProperties: true,
+        extendDefaults: true,
+        types: {
+          '{}': false,
+        },
       },
     ],
   },
