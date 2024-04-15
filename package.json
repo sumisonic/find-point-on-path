@@ -1,13 +1,18 @@
 {
   "name": "@sumisonic/find-point-on-path",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "FindPointOnPath is a TypeScript library for computing points on linear and spline paths using functional programming principles.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "sumisonic",
   "license": "MIT",
   "scripts": {
+    "prepublishOnly": "npm run build",
     "build": "tsc",
     "lint": "eslint --fix 'src/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumisonic/find-point-on-path.git"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.6.0",
