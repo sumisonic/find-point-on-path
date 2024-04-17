@@ -97,4 +97,6 @@ console.log(result); // Option<{ x: 7.285636734391148, y: 17.3772069343958, angl
 
 ## License
 
-This project is licensed under
+The MIT License (MIT)
+
+
